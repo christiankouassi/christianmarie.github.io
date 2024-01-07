@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        footer{
+            /* color: rgba(55, 171, 234, 0.999); */
+            color: white;
+            margin-top: 6%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url(image/slider0.jpg) ;
+            object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+            width: 100%;
+        }
+        body {
+            display: flex;
+            min-height: 100vh;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        form {
+            color: blueviolet;
+            font-size: 2vw;
+            width: 30vw;
+            height: 30vw;
+            background-color: aliceblue;
+            padding: 2vw;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 1vw;
+        }
+
+        input,
+        textarea {
+            color: black;
+            width: 90%;
+            padding: 1vw;
+            margin-bottom: 2vw;
+            box-sizing: border-box;
+        }
+        textarea{
+            height: 25%;
+        }
+        input{
+            height: 10%;
+        }
+
+        button {
+            font-size: 1vw;
+            background-color: rgba(55, 171, 234, 0.999);
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            height: 10%;
+            width: 25%;
+        }
+
+        button:hover {
+            background-color: white;
+            color: rgba(55, 171, 234, 0.999) ;
+        }
+
+       h5 a{
+    text-decoration: none;
+    padding: 2vw;
+    border-radius: 2vw;
+    background-color: rgba(55, 171, 234, 0.999);
+    color: white;
+}
+
+       h5 a:hover{
+    color: blueviolet;
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Mon portfolio</h3>
+        <nav id="haut">
+            <a href="#accueil">Accueil</a>
+            <a href="#propos">à propos de moi</a>
+            <a href="#compétences">Compétences</a>
+            <a href="#Prestations">Prestations</a>
+            <a href="contact.html">Contact</a> 
+        </nav>
+    </header>
+    <div id="accueil" class="slider">
+        <div class="slider-content">
+                <h1>Bonjour, je suis <br> <span>kOUASSI</span> <br>n'gouan christian-marie <br>Etudiant en <br><span>licence developpement full stack</span> <br> à SUPEMIR</h1>
+                <img 
+                 src="image\maphoto.jpg" 
+                 alt="">
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="presentation">
+            <div id="propos">
+                <h2>
+                    A <br> propos de moi
+                </h2>
+                <img src="image/person-icon-blue-18.png" alt="">
+            </div>
+            <p>bonjour content de vous rencontrer,
+                je suis christian-marie kouassi étudiant
+                à SUPEMIR école en 1ère année de licence 
+                Informatique, Réseau et Média.
+                <br/>Je vous présente au travers de 
+                cette page mon portfolio en espérant que 
+                cela vous sera utile dans votre recherche.
+                
+                Si mon profile vous intéresse n'oubliez pas 
+                de me contacter.<br/>
+                Merci. 
+                <br>
+                <br>
+                <br>
+                <a href="#message2">contact me</a></p>
+        </div>
+        <div id="compétences" class="Compétences">
+            <h2>
+                Mes Compétences
+            </h2>
+            <div class="icone">
+                <div class="C1">
+                    <img  src="image/Html.jpg">
+                    <h4>HTML</h4>
+                </div>
+                <div class="C1">
+                    <img  src="image/CSS.jpg">
+                    <h4>CSS</h4>
+                </div>
+                <div class="C1">
+                    <img   src="image/PS.jpg">
+                    <h4>Adobe Photoshop</h4>
+                </div>
+                <div class="C1">
+                    <img  src="image/CLI.jpg">
+                    <h4>CLI de linux</h4>
+                </div>
+            </div>
+            
+        </div>                  
+        <div id="Prestations" class="prestation">
+            <h2 >Mes Prestations</h2>
+            <div class="icone">
+                <div class="C2">
+                    <img src="image/flyer.jpg" alt="">
+                    <h4>Création de flyer et d'affiche publicitaire</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod facere a tenetur assumenda explicabo nostrum magnam sed dolores quisquam!</p>
+                </div>
+                <div class="C2">
+                    <img src="image/landingpage.jpg" alt="">
+                    <h4>Création de landing page</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod facere a tenetur assumenda explicabo nostrum magnam sed dolores quisquam!</p>
+                </div>
+                <div class="C2">
+                    <img src="image/siteweb.jpg" alt="">
+                    <h4>Création de site web-statique</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod facere a tenetur assumenda explicabo nostrum magnam sed dolores quisquam!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <footer>
+        <h1>N'oubliez pas de me laisser un message</h1>       
+        <form action="traitement_form.php" method="post">
+            <label for="name">Nom (facultatif):</label>
+            <input type="text" id="name" name="name">
+    
+            <label for="email">E-mail (facultatif):</label>
+            <input type="email" id="email" name="email">
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Envoyer</button>
+        </form>
+        <h1>Merci, et à bientôt </h1>
+        <h5><a href="#haut">Aller en haut de page</a></h5>
+    </footer>
+</body>
+</html>

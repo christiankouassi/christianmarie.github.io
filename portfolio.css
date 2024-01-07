@@ -1,0 +1,248 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    background-color: aliceblue;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header h3{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+nav{
+    width: 70vw;
+    background-color: rgba(55, 171, 234, 0.999);
+    border-radius: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+color: brown;
+}
+
+.slider{
+    margin-top: 3%;
+    background-image: url(image/slider0.jpg) ;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.slider-content{
+    float: right;
+    margin-top: 6%;
+    margin-left: 3%;
+    background-color: rgba(255, 235, 205, 0.676);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blueviolet;
+    text-shadow: 1px 1px black;
+    width: auto;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.587);
+}
+
+span{
+    color: rgba(55, 171, 234, 0.999);
+}
+
+
+.slider-content img{
+    height: 30vw;
+    width: 30%;
+    display: block;
+    border-radius: 50% ;
+    
+    
+}
+.content{
+    border: 0px solid yellowgreen;
+    margin-top: 6%;
+}
+.presentation{
+    border: 0px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+}
+
+div.presentation div{
+    border:0px solid blue;
+    color: rgba(55, 171, 234, 0.999);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(55, 171, 234, 0.999);
+    width: auto;
+}
+
+
+div.presentation div img{
+    height: 15vw;
+    width: 15%;
+    display: block;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+.presentation div h2{
+    font-size: 5vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(55, 171, 234, 0.999); */
+    color: rgba(55, 171, 234, 0.999);
+}
+
+.presentation p{
+    margin: 0px;
+}
+
+.presentation p a{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 1%;
+    border-radius: 29%;
+    color: white;
+}
+
+.presentation p a:hover{
+    color: white;
+    background-color: rgba(55, 171, 234, 0.999);
+
+}
+
+
+.Compétences{
+    margin-top: 6%;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+.Compétences h2{
+    float: left;
+    border-bottom: 2px solid blueviolet;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.587);
+    width: 20%;
+    margin-right: 6%;
+}
+
+.C1:hover{
+    transform:translate(30px 4px)
+}
+    
+
+
+.C1 img{
+    background-color: rgb(237, 8, 8);
+    height: 15vw;
+    width: 100%;
+}
+
+.C1 h4{
+    margin: 0px;
+}
+
+
+.prestation{
+    margin-top: 6%;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+.prestation h2{
+    float: left;
+    border-bottom: 2px solid blueviolet;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.587);
+    width: 25%;
+    margin-right: 6%;
+}
+
+.C2:hover{
+    transform:translate(30px 4px)
+}
+    
+
+
+.C2 img{
+    background-color: rgb(237, 8, 8);
+    height: auto;
+    width: 100%;
+}
+
+.C2 h4{
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: 2vw;
+    }
+   
+    .slider-content img{
+    max-width: 60%;
+    max-height: 60vw;
+    }
+
+    input{
+        height: 1vw;
+    }
+}
