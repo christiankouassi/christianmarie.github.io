@@ -1,0 +1,118 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    background-color: aliceblue;
+
+}
+
+.slider{
+    padding: 3vw;
+    margin-top: 3%;
+    margin: 10%;
+    background-image: url(image/slider0.jpg) ;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    color: rgba(55, 171, 234, 0.999);
+    margin-top: 13%;
+}
+.slider-contact{
+    padding: 5vw;
+    border-radius: 2vw;
+    float: right;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blueviolet;
+    width: 80%;
+    height: 60%;
+    box-shadow: 6px 9px 14px rgba(0, 0, 0, 0.756);
+}
+.slider-contact img{
+    height: 86%;
+    width: 50%;
+    border-radius: 2vw;
+    display: block;
+}
+
+form {
+    color: blueviolet;
+    font-size: 2vw;
+    width: 50%;
+    height: 70%;
+    background-color: rgba(240, 248, 255, 0.728);
+    padding: 2vw;
+    border-radius: 2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 1vw;
+}
+
+input,
+textarea {
+    color: black;
+    width: 90%;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    box-sizing: border-box;
+}
+textarea{
+    height: 25%;
+}
+input{
+    height: 10%;
+}
+
+button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 1vw;
+    background-color: rgba(55, 171, 234, 0.999);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 10%;
+    width: 25%;
+}
+
+button:hover {
+    background-color: white;
+    color: rgba(55, 171, 234, 0.999) ;
+}
+
+ a{
+text-decoration: none;
+padding: 2vw;
+border-radius: 2vw;
+background-color: rgba(55, 171, 234, 0.999);
+color: white;
+}
+
+ a:hover{
+color: blueviolet;
+background-color: white;
+}
